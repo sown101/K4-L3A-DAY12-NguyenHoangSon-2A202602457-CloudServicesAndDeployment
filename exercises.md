@@ -120,4 +120,4 @@ Ghi lại **một** lỗi bạn gặp khi deploy lên cloud (build fail, health 
 timeout, sai REDIS_URL, app không đọc `$PORT`...): thông báo lỗi là gì, bạn
 tìm ra nguyên nhân bằng cách nào, và sửa ra sao?
 
-> Lúc tạo Railway project, mình dùng tên dài theo tên repository và CLI báo đúng dòng: `Project names must be between 1 and 32 characters.` Mình kiểm tra lại độ dài tên ngay từ thông báo này, rút thành `k4-day12-son` rồi chạy `railway init` lại. Một lần thử quá nhanh còn bị giới hạn tạo project trong 30 giây; chờ hết khoảng đó thì project được tạo, sau đó mình thêm Redis, gắn repo và kiểm tra `/health` cùng `/ready` đều trả 200.
+> Lúc tạo Railway project, mình dùng tên dài theo tên repository và CLI báo đúng dòng: `Project names must be between 1 and 32 characters.` Mình kiểm tra lại độ dài tên ngay từ thông báo này, rút thành `k4-day12-son` rồi chạy `railway init` lại. Một lần thử quá nhanh còn bị giới hạn tạo project trong 30 giây; chờ hết khoảng đó thì project được tạo, sau đó mình thêm Redis, gắn repo và kiểm tra `/health` cùng `/ready` đều trả 200
